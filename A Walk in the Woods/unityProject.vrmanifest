@@ -1,0 +1,16 @@
+{
+  "source": "Unity",
+  "applications": [
+    {
+      "app_key": "application.generated.unity.awalkinthewoods.exe",
+      "launch_type": "url",
+      "url": "steam://launch/",
+      "action_manifest_path": "C:\\Users\\slk125\\Documents\\GitHub\\A-Walk-in-the-Woods\\A Walk in the Woods\\Assets\\StreamingAssets\\SteamVR\\actions.json",
+      "strings": {
+        "en_us": {
+          "name": "A Walk in the Woods [Testing]"
+        }
+      }
+    }
+  ]
+}

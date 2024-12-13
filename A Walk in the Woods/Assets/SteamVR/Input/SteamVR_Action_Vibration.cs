@@ -241,6 +241,15 @@ namespace Valve.VR
 
             EVRInputError err = OpenVR.Input.TriggerHapticVibrationAction(handle, secondsFromNow, durationSeconds, frequency, amplitude, inputSourceHandle);
 
+            if (err != null)
+            {
+                Debug.Log("err succesfully assigned");
+            }
+            else
+            {
+                Debug.LogError("Failed to assign err");
+            }
+
             //Debug.Log(string.Format("[{5}: haptic] secondsFromNow({0}), durationSeconds({1}), frequency({2}), amplitude({3}), inputSource({4})", secondsFromNow, durationSeconds, frequency, amplitude, inputSource, this.GetShortName()));
 
             if (err != EVRInputError.None)
